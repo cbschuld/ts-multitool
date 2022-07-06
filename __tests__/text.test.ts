@@ -1,4 +1,5 @@
 import { commaSeparatedString } from '../src/text/commaSeparatedString'
+import { capitalize } from '../src/text/capitalize'
 
 describe('commaSeparatedString', () => {
   test('4 items', () => {
@@ -17,5 +18,14 @@ describe('commaSeparatedString', () => {
   })
   test('0 items', () => {
     expect(commaSeparatedString([])).toBe('')
+  })
+})
+
+describe('capitalize', () => {
+  test('single words', () => {
+    expect(capitalize('MONKEY')).toBe('MONKEY')
+    expect(capitalize('monkey')).toBe('Monkey')
+    expect(capitalize('MoNkEY')).toBe('MoNkEY')
+    expect(capitalize('moNkEY')).toBe('MoNkEY')
   })
 })

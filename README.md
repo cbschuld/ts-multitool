@@ -37,9 +37,19 @@ The entire point of `ts-multitool` is simplicity with the goal of producing rapi
 Take a list of strings and create a comma separated string. The `useOxfordComma` will place an [Oxford Comma](https://en.wikipedia.org/wiki/Serial_comma)
 
 ```typescript
-import { commaSeparatedString } from 'ts-multitool/text/commaSeparatedString'
+import { commaSeparatedString } from 'ts-multitool/lib/esm/text/commaSeparatedString'
 const response = commaSeparatedString(['first', 'second', 'third'])
 assert(response === 'first, second and third')
+```
+
+### `capitalize(string)`
+
+TCapitalizes the first letter of a string. It does NOT force lowercase on the remaining letters.
+
+```typescript
+import { capitalize } from 'ts-multitool/lib/esm/text/capitalize'
+const response = capitalize('thomas')
+assert(response === 'Thomas')
 ```
 
 ---
