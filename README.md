@@ -4,7 +4,9 @@ On the journey of building applications in [TypeScript](https://www.typescriptla
 
 ## Motivation
 
-Building software accurately and quickly tends to yield a solution missing a lot of test coverage for quick and dirty functions usually plucked from google searches or [StackOverflow](https://stackoverflow.com). This library is my own pile of functions I am using with the included test coverages to manage them.
+Building software accurately and quickly tends to yield solutions which are simply missing test coverage for quick and dirty functions plucked from google searches or [StackOverflow](https://stackoverflow.com). This library is my own collection of functions I am using with the included test coverages to manage them.
+
+Furthering, in my experience, I find great solutions and I'll adopt them in a project. Months down the road I'll research the same problem and will stop and realize in the middle of the research "I have looked for this before" and I'll search my own solutions for it. I have done a poor job denoting great known-good solutions. This is an attempt to encapsulate the runtime from time spent researching.
 
 ## Installation
 
