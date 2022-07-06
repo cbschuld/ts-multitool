@@ -1,0 +1,1 @@
+export { getExtension } from './getExtension'
