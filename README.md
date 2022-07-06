@@ -1,5 +1,13 @@
 # TypeScript MultiTool 🛠
 
+<p>
+  <img alt="npm" src="https://img.shields.io/npm/dw/ts-multitool?style=flat-square"/>
+  <img alt="size" src="https://img.shields.io/bundlephobia/min/ts-multitool"/>
+  <img alt="build" src="https://img.shields.io/github/workflow/status/cbschuld/ts-multitool/CI"/>
+  <img alt="NPM" src="https://img.shields.io/npm/l/ts-multitool?style=flat-square"/>
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"/>
+</p>
+
 On the journey of building applications in [TypeScript](https://www.typescriptlang.org/) you will need a menagerie of functions. Typically the user's trip down Google lane will bring you to [StackOverflow](https://stackoverflow.com). The code is copied into the editor and the app construction continues. Bad, no chance the testing is added and now problems arise. The TypeScript MultiTool is a tree-shakable pile of functions helpful for building apps with all of the tests included in the library.
 
 ## Motivation
