@@ -62,6 +62,18 @@ const response = capitalize('thomas')
 assert(response === 'Thomas')
 ```
 
+### `truncate(string,length,useWordBoundary,ellipsis)`
+
+Truncates the string at the given length and adds an ellipsis. The `useWordBoundary` will truncate at the nearest word boundary. The `ellipsis` will be added to the end of the string.
+
+````typescript
+import { truncate } from 'ts-multitool'
+const line1 = truncate('The quick brown fox jumps over the lazy dog', 20, true, '...')
+const line2 = truncate('The quick brown fox jumps over the lazy dog', 20)
+assert(line1 === 'The quick brown fox...')
+assert(line2 === 'The quick brown fox&hellip;')
+```
+
 ---
 
 ## Array Functions (available at `/array/`)
@@ -76,7 +88,7 @@ Returns a list of unique values from the given array (supports primitives)
 import { unique } from 'ts-multitool'
 const list = unique([1, 2, 3, 4, 3, 2, 4, 1])
 // returns [1, 2, 3, 4]
-```
+````
 
 ---
 
