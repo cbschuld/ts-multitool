@@ -1,6 +1,6 @@
 {
   "name": "ts-multitool",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "TypeScript MultiTool - A library full of tree-shakable TypeScript functions for application construction in both CommonJS and ESM",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
