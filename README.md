@@ -90,6 +90,18 @@ const list = unique([1, 2, 3, 4, 3, 2, 4, 1])
 // returns [1, 2, 3, 4]
 ```
 
+### `uniqueValue(value:string, list:string[]): string`
+
+Determines and possibly mutates value to ensure it is unique in the list of values
+
+```typescript
+import { uniqueValue } from 'ts-multitool'
+const field1 = uniqueValue('a', ['a', 'b', 'c'])
+// returns 'a0'
+const field2 = uniqueValue('a', ['a', 'a0', 'a1'])
+// returns 'a2'
+```
+
 ---
 
 ## File Functions (available at `/files/`)
